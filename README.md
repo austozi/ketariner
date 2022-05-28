@@ -21,9 +21,17 @@ This is a collection of third-party open-source tools and scripts used to manage
 
 Template names follow this convention: `<appname>-<architecture>[-unofficial].xml`.
 
-- **appname:** Application name
-- **architecture:** Hardware architecture
-- **[-unofficial]:** Optional, indicates unofficial installer
+- **appname:** Name of the sofware application.
+- **architecture:** Hardware architecture, see below.
+- **[-unofficial]:** Optional, indicates unofficial installer.
+
+## Hardware architecture
+
+| label | Windows compatibility |
+| ------| ----------------------|
+| win32 | 32-bit and 64-bit     |
+| win64 | 64-bit only           |
+| w6432 | 64-bit and 32-bit     |
 
 1. Download the desired template file in XML format (e.g. `Zotero.xml`).
 2. Launch `Ketarin.exe`.
