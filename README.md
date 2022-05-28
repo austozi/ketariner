@@ -17,6 +17,13 @@ This is a collection of third-party open-source tools and scripts used to manage
 
 # How to Use
 
+## Template nomenclature
+
+Template names follow this convention: `<appname>-<architecture>[-unofficial].xml`.
+- **<appname>:** Application name
+- **<architecture>:** Hardware architecture
+- **[-unofficial]:** Optional, indicates unofficial installer
+
 1. Download the desired template file in XML format (e.g. `Zotero.xml`).
 2. Launch `Ketarin.exe`.
 3. From the menu bar, select `File`, followed by `Import...`.
