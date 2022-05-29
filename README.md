@@ -15,6 +15,15 @@ This is a collection of third-party open-source tools and scripts used to manage
     ketarin.exe /database=jobs.db
     ``` 
 
+### Inno Setup
+
+1. Download and install [Inno Setup](https://jrsoftware.org/isdl.php).
+2. Copy the Inno Setup folder to the Ketarin folder above, e.g. `%LocalAppData%\Programs\Ketarin\Utils\Inno Setup`.
+
+### 7-Zip
+
+1. Download and install [7-Zip](https://www.7-zip.org) to the Ketarin folder, e.g. `%LocalAppData%\Programs\Ketarin\Utils\7-Zip`.
+
 # How to Use
 
 ## Template nomenclature
@@ -32,6 +41,8 @@ Template names follow this convention: `<appname>-<architecture>[-unofficial].xm
 | win32 | 32-bit                  | 32-bit and 64-bit     |
 | win64 | 64-bit                  | 64-bit only           |
 | w6432 | 64-bit and 32-bit       | 32-bit and 64-bit     |
+
+
 
 1. Download the desired template file in XML format (e.g. `Zotero.xml`).
 2. Launch `Ketarin.exe`.
