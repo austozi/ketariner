@@ -27,7 +27,7 @@ Template names follow this convention: `<appname>-<architecture>[-unofficial].xm
 
 ## Hardware architecture
 
-| Label | Executable architecture | Windows compatibility |
+| Label | Executable              | Windows compatibility |
 |-------|-------------------------|-----------------------|
 | win32 | 32-bit                  | 32-bit and 64-bit     |
 | win64 | 64-bit                  | 64-bit only           |
