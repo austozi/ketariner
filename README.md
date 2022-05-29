@@ -27,11 +27,11 @@ Template names follow this convention: `<appname>-<architecture>[-unofficial].xm
 
 ## Hardware architecture
 
-| label | Windows compatibility |
-| ------| ----------------------|
-| win32 | 32-bit and 64-bit     |
-| win64 | 64-bit only           |
-| w6432 | 64-bit and 32-bit     |
+| Label | Executable architecture | Windows compatibility |
+|-------|-------------------------|-----------------------|
+| win32 | 32-bit                  | 32-bit and 64-bit     |
+| win64 | 64-bit                  | 64-bit only           |
+| w6432 | 64-bit and 32-bit       | 32-bit and 64-bit     |
 
 1. Download the desired template file in XML format (e.g. `Zotero.xml`).
 2. Launch `Ketarin.exe`.
